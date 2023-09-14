@@ -7,7 +7,7 @@ console.log(input)
 console.log(buttoncolor)
 
 buttoncolor.addEventListener('click',function(){
-    let clText = inputText.value()
+    let clText = inputText.value
     headOne.style.color = clText
     inputText.value = ""
 })
