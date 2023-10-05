@@ -9,7 +9,7 @@ console.log(buttonA)
 
 
 buttonA.addEventListener("click",function(){
-     liText = inputText.value
+    liText = inputText.value
     let newELement = document.createElement('li')
     newELement.textContent = liText
     headOne.appendChild(newELement)
